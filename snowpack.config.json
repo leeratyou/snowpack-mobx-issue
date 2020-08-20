@@ -1,0 +1,8 @@
+{
+  "extends": "@snowpack/app-scripts-react",
+  "alias": {
+    "@src": "./src"
+  },
+  "install": [ "mobx-react-lite/batchingForReactDom" ],
+  "plugins": [ "@snowpack/plugin-dotenv" ]
+}
